@@ -60,9 +60,9 @@ cd /var/www/laravel
 sudo sed -i 's/DB_CONNECTION=mysql/DB_CONNECTION=mysql/' .env
 sudo sed -i 's/DB_HOST=localhost/DB_HOST=localhost/' .env
 sudo sed -i 's/DB_PORT=3306/DB_PORT=3306/' .env
-sudo sed -i 's/DB_DATABASE=Tinubu/DB_DATABASE=Ehijator/' .env
-sudo sed -i 's/DB_USERNAME=shettima/DB_USERNAME=Amagbewan/' .env
-sudo sed -i 's/DB_PASSWORD=cardoso/DB_PASSWORD=felix/' .env
+sudo sed -i 's/DB_DATABASE=Ehijator/DB_DATABASE=Ehijator/' .env
+sudo sed -i 's/DB_USERNAME=Amagbewan/DB_USERNAME=Amagbewan/' .env
+sudo sed -i 's/DB_PASSWORD=felix/DB_PASSWORD=felix/' .env
 sudo php artisan key:generate
 sudo php artisan storage:link
 sudo php artisan migrate
